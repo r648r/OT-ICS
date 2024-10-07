@@ -99,8 +99,11 @@ flowchart TD
     Actuators -->|feedback| Remote
     Remote --> Controller
     Actuators -->|process inputs| Process[Controlled Process]
+    input1((Process Input)) --> Process
+    disturbance((Disturbance)) --> Process
+    Process --> output1((Process Output))
     Process -->|process outputs| Sensors
-    Process -->|disturbances| Controller
+
 ```
 
 ## Security VS Safety
