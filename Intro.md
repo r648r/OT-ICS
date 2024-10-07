@@ -92,10 +92,10 @@ L'OT et les **ICS (Industrial Control Systems)**, souvent confondus, se distingu
 
 ```mermaid
 flowchart TD
-    HMI[Human-Machine Interface (HMI)] -->|set points, control algorithms, parameter constraints, process data| Controller
+    HMI[HMI] -->|set points, control algorithms, constraints, process data| Controller
     Controller -->|controlled variables| Sensors
     Controller -->|manipulated variables| Actuators
-    Sensors -->|feedback| Remote[Remote Diagnostics and Maintenance]
+    Sensors -->|feedback| Remote[Remote Diagnostics & Maintenance]
     Actuators -->|feedback| Remote
     Remote --> Controller
     Actuators -->|process inputs| Process[Controlled Process]
