@@ -92,22 +92,6 @@ L'OT et les **ICS (Industrial Control Systems)**, souvent confondus, se distingu
 ![alt text](./img/1607dd6bf94da62508f9ab63c6720a28-1.png)
 - **PLC** : automate recueillant les données des capteurs et contrôlant les actionneurs.
 
-```mermaid
-flowchart TD
-    HMI[HMI] -->|set points, control algorithms, constraints, process data| Controller
-    Controller -->|controlled variables| Sensors
-    Controller -->|manipulated variables| Actuators
-    Sensors -->|feedback| Remote[Remote Diagnostics & Maintenance]
-    Actuators -->|feedback| Remote
-    Remote --> Controller
-    Actuators -->|process inputs| Process[Controlled Process]
-    input1((Process Input)) --> Process
-    disturbance((Disturbance)) --> Process
-    Process --> output1((Process Output))
-    Process -->|process outputs| Sensors
-
-```
-
 ## Security VS Safety
 
 Deux concepts de **sécurité** sur les sites industriels :
