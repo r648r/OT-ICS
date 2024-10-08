@@ -21,8 +21,8 @@ Demande les avanatages inconveniants de chaqun.
 
 ## SCADA with backup control center
 
-![alt text](1607dd6bf94da62508f9ab63c6720a28.png)
+![alt text](./img/1607dd6bf94da62508f9ab63c6720a28.png)
 
 ## Rail monitoring and control SCADA
 
-![alt text](48b4efbc31d9bbf6f379768b545542ba.png)
+![alt text](./img/48b4efbc31d9bbf6f379768b545542ba.png)

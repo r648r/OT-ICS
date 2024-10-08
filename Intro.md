@@ -87,9 +87,9 @@ L'OT et les **ICS (Industrial Control Systems)**, souvent confondus, se distingu
 **ICS** : Selon le NIST, les ICS sont des systèmes d'information servant à contrôler les processus industriels (manufacture, distribution, etc.). Ils incluent des systèmes SCADA, DCS et d'autres sous-systèmes.
 
 - **SCADA** : pour le contrôle de sites dispersés géographiquement (ex. réseau électrique).
-![alt text](0c926655e4f1d7a3cd8a5ab762f4f139.png)
+![alt text](./img/0c926655e4f1d7a3cd8a5ab762f4f139.png)
 - **DCS** : pour un site unique (ex. barrages hydroélectriques).
-![alt text](1607dd6bf94da62508f9ab63c6720a28-1.png)
+![alt text](./img/1607dd6bf94da62508f9ab63c6720a28-1.png)
 - **PLC** : automate recueillant les données des capteurs et contrôlant les actionneurs.
 
 ```mermaid
@@ -113,11 +113,11 @@ flowchart TD
 Deux concepts de **sécurité** sur les sites industriels :
 
 - **SECURITY** : protection contre les actes malveillants (ex. intrusion, surveillance périmétrique).
-![alt text](4d5012ba435b179c34ed0a4a63a47076.png)
+![alt text](./img/4d5012ba435b179c34ed0a4a63a47076.png)
 - **SAFETY** : sûreté opérationnelle contre les risques techniques, potentiel blessure humaines (ex. éviter les explosions, fuite de produits dangereux).
-![alt text](6fde7162345dafd5f9336244be36df04.png)
+![alt text](./img/6fde7162345dafd5f9336244be36df04.png)
 - **CYBERSEC** : protéger les systèmes d'information des actes malveillants.
-![alt text](<Diagramme sans nom-Implantation_Site.drawio.svg>)
+![alt text](<./img/Diagramme sans nom-Implantation_Site.drawio.svg>)
 
 ### Besoin accru de **disponibilité**
 
@@ -128,6 +128,6 @@ Les équipements d'OT doivent assurer :
 
 ## Schéma
 
-![alt text](HMI-technology-in-process-control.jpg)
-![alt text](image.png)
-![alt text](main-elements-of-a-CNC-machine-1.webp)
+![alt text](./img/HMI-technology-in-process-control.jpg)
+![alt text](./img/image.png)
+![alt text](./img/main-elements-of-a-CNC-machine-1.webp)

@@ -46,7 +46,7 @@
 - Pilotage des processus industriels en temps réel.
 - Envoi des ordres aux préactionneurs (côté actionneur) à partir des capteurs (côté capteur).
 - **APS** (Automate Programmable de Sécurité) : PLC remplissant une fonction de sécurité industrielle.
-![alt text](d9aa19fae351af8b0012f3ee0cd10799.png)
+![alt text](./img/d9aa19fae351af8b0012f3ee0cd10799.png)
 
 ## RTU (Remote Terminal Unit)
 
@@ -124,11 +124,11 @@ graph TD
 
 ### DCS
 
-![alt text](c166d5c5be5ca7225ba2178841246985.png)
+![alt text](./img/c166d5c5be5ca7225ba2178841246985.png)
 
 ### SCADA
 
-![alt text](d53f357c653cf2553ed6ad720dadb1c2-1.png)
+![alt text](./img/d53f357c653cf2553ed6ad720dadb1c2-1.png)
 
 ## Les Opérations de Maintenance
 
@@ -157,4 +157,4 @@ graph TD
 
 ## IT vs OT
 
-![alt text](f6a31654e53d6ced9656091a8efcf413.png)
+![alt text](./img/f6a31654e53d6ced9656091a8efcf413.png)
