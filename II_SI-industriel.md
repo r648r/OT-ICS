@@ -155,6 +155,37 @@ graph TD
 - **Ingénieur de sûreté** : Évalue l'état de sûreté et prend les dispositions nécessaires pour garantir la sûreté des installations. Impliqué dans les analyses de risques (y compris cyber).
 - **Responsable de la cybersécurité industrielle** : Définit et applique les règles de cybersécurité sur le périmètre industriel. Peut être un rôle dédié ou partagé avec le responsable automation selon la taille de l'installation.
 
-## IT vs OT
+## Maintenance industrielle
 
-![alt text](./img/f6a31654e53d6ced9656091a8efcf413.png)
+La **maintenance** est essentielle pour garantir la continuité de service sur une installation industrielle. Elle peut être de deux types :
+
+1. **Internalisée** :
+   - Maintenance effectuée par les équipes internes de l'entreprise.
+   - **Équipe locale** : Interventions rapides grâce à la proximité.
+   - **Équipe centralisée** : Pour les grandes infrastructures, souvent sur les couches hautes du système (comme le **Data Historian**), utilisant un **accès distant**.
+
+### Types de maintenance
+
+- **Préventive** : Interventions régulières pour éviter les pannes (ex : nettoyage de ventilateurs, check de disque dur, backup).
+- **Curative** : Intervention suite à une panne (réparation).
+
+2. **Externalisée** :
+
+- Nécessaire en cas de manque de ressources locales ou de compétences spécifiques.
+- Réalisée par des prestataires externes ou par les fournisseurs.
+- Types de maintenance : **Préventive** (planifiée) ou **curative** (urgence).
+- Contrats de maintenance doivent être établis entre l’entreprise et le sous-traitant.
+
+## Acteurs OT
+
+| Rôle                             | Description                                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------------------|
+| **Directeur de site**            | Responsable de l'activité du site, impliqué en cas d'incidents affectant la sécurité.       |
+| **Responsable automation**       | Gère les installations de contrôle commande et la maintenance des équipements associés.     |
+| **Ingénieur d’exploitation**     | Définit le procédé de fabrication et propose des améliorations. Peut modifier les systèmes de contrôle. |
+| **Développeur ICS**              | Développe et paramètre les applications pour automates et ICS. Utilise des spécifications techniques. |
+| **Technicien/Responsable maintenance** | Maintenance préventive (prévenir les pannes) et curative (réparation après panne).   |
+| **Opérateur de conduite**        | Supervise le procédé, intervient en cas de dysfonctionnement, consigne les événements.      |
+| **Ingénieur de sûreté**          | Garantit la sûreté des installations, interagit avec l'ingénieur d’exploitation et la cybersécurité. |
+| **Responsable cybersécurité industrielle** | Applique les règles de cybersécurité sur le site, rôle souvent partagé avec le responsable automation. |
+

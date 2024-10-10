@@ -13,6 +13,9 @@ L'histoire moderne est marquée par quatre révolutions industrielles successive
 
 **Industrie 4.0** désigne une nouvelle génération d'usines connectées, robotisées et intelligentes. Cette industrie s'appuie sur la révolution numérique, amenuisant les frontières entre le monde physique et digital pour créer des usines interconnectées. Le terme est apparu pour la première fois en 2011 lors du Forum mondial de l'Industrie de Hanovre.
 
+- Evolution des protocoles réseaux sans fil (5G, RFID, Lora, bluetooth, Zigbee, ...)
+- Nouvelles architectures cloud et offres de service associées le big data / Data analytics
+
 Malgré l'avènement de la 4ème révolution, de nombreux sites fonctionnent encore avec des systèmes hérités de la 3ème révolution, exposant ces équipements à de nouvelles vulnérabilités.
 
 ## Types de Process Industriels
@@ -109,6 +112,54 @@ Les équipements d'OT doivent assurer :
 
 - **Continuité des opérations** : pour minimiser l'impact économique d'arrêts non planifiés.
 - **Protection des biens et personnes** : systèmes critiques comme la détection d'intrusion, la vidéosurveillance, et la sûreté environnementale.
+
+## Différences entre OT et IT : Sécurisation des SI
+
+![alt text](./img/f6a31654e53d6ced9656091a8efcf413.png)
+
+La sécurité des systèmes d'information (IT et OT) repose sur quatre critères principaux :
+
+| Critères de sécurité | IT | OT |
+|------------------------|----|----|
+| **Disponibilité**       | Non prioritaire, arrêt de quelques minutes tolérable. | **Indispensable** pour garantir la continuité du processus. |
+| **Intégrité**          | Impact limité mais existant (ex : altération de flux vidéo). | Indispensable, tout dysfonctionnement peut être dangereux. |
+| **Confidentialité**     | Critère le plus important, impact sur RGPD, propriété intellectuelle. | Dépendant du procédé (pharmacie, industrie de pointe). |
+| **Traçabilité**         | Souvent requis pour des raisons réglementaires. | Importante pour les données environnementales, souvent oubliée. |
+
+### Exemple d'attaques significatives
+
+- **Ukraine (2015)** : Coupures de courant dues à une cyberattaque avec le malware BlackEnergy, impactant des systèmes SCADA.
+- **Stuxnet (2010)** : Attaque ciblant l'Iran pour altérer les paramètres des centrifugeuses d'enrichissement d'uranium.
+- **Target (2013)** : Vol de données de cartes de crédit via une infection des TPV, affectant la réputation et entraînant des pertes financières.
+
+## Comparatif des Différences IT vs OT
+
+### Différences Opérationnelles
+
+| Aspect | IT | OT |
+|--------|----|----|
+| **Maintenance** | Équipes dédiées (groupe) | Locale, souvent assurée par les fournisseurs externes |
+| **Compétences cyber** | Équipes dédiées (groupe) | Compétences locales combinant automatisation et cybersécurité |
+| **Projets** | Cybersécurité intégrée | Souvent gérés au niveau local, cybersécurité non systématiquement prise en compte |
+
+### Différences Techniques
+
+| Aspect | IT | OT |
+|--------|----|----|
+| **Cycle de vie des assets** | 3-5 ans | 15-30 ans |
+| **Systèmes d'exploitation** | Standards récents, Win 10 | Hétérogénéité selon l'âge des machines (DOS, Win XP, etc.) |
+| **Protocoles réseau** | Protocoles majoritairement chiffrés | Protocoles majoritairement non chiffrés |
+| **Connexions Internet** | Connexions autorisées | Pas de connexions autorisées (souvent non respecté) |
+
+### Différences Fonctionnelles
+
+| Aspect | IT | OT |
+|--------|----|----|
+| **Bien à protéger** | L'information | Outil de production, continuité de service |
+| **Infra / architecture** | Cloud, centralisation, virtualisation | Applications locales, segmentation fonctionnelle |
+| **Solutions de sécurité** | Choix vaste | Peu de solutions spécifiques, majorité adaptées de l'IT |
+| **Environnement de fonctionnement** | "Sain" (data centers, bureaux) | "Difficile" (poussière, vibrations, températures élevées) |
+| **Mises à jour** | Fréquentes et centralisées | Uniquement pendant arrêts de production |
 
 ## Schéma
 
