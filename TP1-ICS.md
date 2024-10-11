@@ -135,12 +135,12 @@ PLC 192.168.1.11 --> SCADA 192.168.1.2O1
     - **Description** : Message est utilisé par le maître pour demander à l'esclave de démarrer la transmission de données de manière cyclique.
     - **Fonction** : Il s'agit d'une commande d'activation (act) pour initier la transmission cyclique de données depuis l'esclave vers le maître.
 
-- **U(STARTDT con)**
-  - **Description** : Message est utilisé par l'esclave pour confirmer la réception du message U(STARTDR act) envoyé par le maître.
-  - **Fonction** : Il s'agit d'une confirmation (con) indiquant que l'esclave a reçu la commande de démarrage de la transmission cyclique de données.
+  - **U(STARTDT con)**
+    - **Description** : Message est utilisé par l'esclave pour confirmer la réception du message U(STARTDR act) envoyé par le maître.
+    - **Fonction** : Il s'agit d'une confirmation (con) indiquant que l'esclave a reçu la commande de démarrage de la transmission cyclique de données.
 
-    ![alt text](./img/TP/image-12.png)
-    ![alt text](./img/TP/image-11.png)
+![alt text](./img/TP/image-12.png)
+![alt text](./img/TP/image-11.png)
 
 - **I**
   - **Description** : Messages d'information envoyés par l'esclave au maître.
@@ -150,10 +150,10 @@ PLC 192.168.1.11 --> SCADA 192.168.1.2O1
   - **Description** : Messages de supervision envoyés par l'esclave au maître.
   - **Fonction** : Ces messages contiennent des informations  telles que des états de communication, des erreurs, des alarmes, etc.
 
-    ![alt text](./img/TP/image-10.png)
+![alt text](./img/TP/image-10.png)
 
 - Quels sont les registres ciblés et les valeurs passées :  
-???? Pas fait zbi
+**!!! Je trouve pas si qqn a la reponses je veux bien !!!**
 - Qui est l’attaquant et comment s’appelle le malware?
 
 ```mermaid
@@ -181,12 +181,12 @@ graph TD
 - Reverse du malware fait par Eset : [Win32_industroyer.pdf](./Win32_Industroyer.pdf)
 - [Teams 82 article](https://claroty.com/team82/blog/industroyer2-variant-surfaces-in-foiled-attack-against-ukraine-electricity-provider)
 - Virus total
-- <https://www.virustotal.com/gui/file/893e4cca7fe58191d2f6722b383b5e8009d3885b5913dcd2e3577e5a763cdb3f/detection>
-- <https://www.virustotal.com/gui/file/21c1fdd6cfd8ec3ffe3e922f944424b543643dbdab99fa731556f8805b0d5561/detection>
-- <https://www.virustotal.com/gui/file/3e3ab9674142dec46ce389e9e759b6484e847f5c1e1fc682fc638fc837c13571/detection>
-- <https://www.virustotal.com/gui/file/ad23c7930dae02de1ea3c6836091b5fb3c62a89bf2bcfb83b4b39ede15904910/detection>
-- <https://www.virustotal.com/gui/file/37d54e3d5e8b838f366b9c202f75fa264611a12444e62ae759c31a0d041aa6e4/detection>
-- <https://www.virustotal.com/gui/file/7907dd95c1d36cf3dc842a1bd804f0db511a0f68f4b3d382c23a3c974a383cad/detection>
+  - <https://www.virustotal.com/gui/file/893e4cca7fe58191d2f6722b383b5e8009d3885b5913dcd2e3577e5a763cdb3f/detection>
+  - <https://www.virustotal.com/gui/file/21c1fdd6cfd8ec3ffe3e922f944424b543643dbdab99fa731556f8805b0d5561/detection>
+  - <https://www.virustotal.com/gui/file/3e3ab9674142dec46ce389e9e759b6484e847f5c1e1fc682fc638fc837c13571/detection>
+  - <https://www.virustotal.com/gui/file/ad23c7930dae02de1ea3c6836091b5fb3c62a89bf2bcfb83b4b39ede15904910/detection>
+  - <https://www.virustotal.com/gui/file/37d54e3d5e8b838f366b9c202f75fa264611a12444e62ae759c31a0d041aa6e4/detection>
+  - <https://www.virustotal.com/gui/file/7907dd95c1d36cf3dc842a1bd804f0db511a0f68f4b3d382c23a3c974a383cad/detection>
 
 - Quand est-ce que le malware est apparue pour la 1er fois ?
   - Avril 2022
