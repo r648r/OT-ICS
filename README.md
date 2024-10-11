@@ -21,7 +21,10 @@ This project is all about ICS Security. In an effort to contribute to the ICS co
 ## Amazing blog
 
 <https://zerontek.com/zt/2024/07/24/how-to-find-and-probe-enco-plcs-on-the-internet-just-like-frostygoop-malware/>
+
 <https://zerontek.com/zt/2022/02/21/ot-ics-secure-by-design/>
+
+<https://industrialcyber.co/reports/clarotys-team82-discovers-five-vulnerabilities-in-mms-protocol-posing-significant-risks-to-industrial-devices/>
 
 ## PLC Explained
 

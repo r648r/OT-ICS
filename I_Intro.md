@@ -87,6 +87,30 @@ L'OT et les **ICS (Industrial Control Systems)**, souvent confondus, se distingu
 | RTU      | Remote Terminal Unit                         |
 | IED      | Intelligent Electronic Device                |
 
+```plain-text
+                ┌DMZ─────────────────────┐                          
+                │            ┌──────────┐│     ┌────────┐           
+                │            │ Firewall ├│─────┤ SCADA  │           
+                │            └────┬─────┘│     └───┬────┤           
+ @@@@@@@@@@@@   │┌──────────┐  ┌──┴─┐    │         │    │           
+ @ Internet @───┼┤ Firewall ├──┤ DH │    │         │  ┌─┴───┐       
+ @@@@@@@@@@@@   │└──────────┘  └────┘    │         │  │ RTU │       
+                └────────────────────────┘         │  └─┬───┘       
+                                                   │    │           
+                       ┌─────┐   ┌─────┐     ┌─────┴────┴─┐  ┌─────┐
+                       │ HMI ├───┤ APS ├─────┤ PLC ou API ├──┤ HMI │
+                       └─────┘   └──┬──┘     └─────┬──────┘  └─────┘
+                                    │              │                
+                               ┌────┴────┐    Signal Elec           
+                               │ Sensors │        ou                
+                               │ Safety  │  Signal Numérique        
+                               └─────────┘         │                
+                                              ┌────┴────┐           
+                                              │ Sensors │           
+                                              │ Process │           
+                                              └─────────┘           
+```
+
 **ICS** : Selon le NIST, les ICS sont des systèmes d'information servant à contrôler les processus industriels (manufacture, distribution, etc.). Ils incluent des systèmes SCADA, DCS et d'autres sous-systèmes.
 
 - **SCADA** : pour le contrôle de sites dispersés géographiquement (ex. réseau électrique).

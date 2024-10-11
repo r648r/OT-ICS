@@ -159,22 +159,22 @@ graph TD
 
 La **maintenance** est essentielle pour garantir la continuité de service sur une installation industrielle. Elle peut être de deux types :
 
-1. **Internalisée** :
+1. Internalisée :
    - Maintenance effectuée par les équipes internes de l'entreprise.
    - **Équipe locale** : Interventions rapides grâce à la proximité.
    - **Équipe centralisée** : Pour les grandes infrastructures, souvent sur les couches hautes du système (comme le **Data Historian**), utilisant un **accès distant**.
 
-### Types de maintenance
-
-- **Préventive** : Interventions régulières pour éviter les pannes (ex : nettoyage de ventilateurs, check de disque dur, backup).
-- **Curative** : Intervention suite à une panne (réparation).
-
-2. **Externalisée** :
+2. Externalisée
 
 - Nécessaire en cas de manque de ressources locales ou de compétences spécifiques.
 - Réalisée par des prestataires externes ou par les fournisseurs.
 - Types de maintenance : **Préventive** (planifiée) ou **curative** (urgence).
 - Contrats de maintenance doivent être établis entre l’entreprise et le sous-traitant.
+
+### Types de maintenance
+
+- **Préventive** : Interventions régulières pour éviter les pannes (ex : nettoyage de ventilateurs, check de disque dur, backup).
+- **Curative** : Intervention suite à une panne (réparation).
 
 ## Acteurs OT
 
@@ -188,4 +188,3 @@ La **maintenance** est essentielle pour garantir la continuité de service sur u
 | **Opérateur de conduite**        | Supervise le procédé, intervient en cas de dysfonctionnement, consigne les événements.      |
 | **Ingénieur de sûreté**          | Garantit la sûreté des installations, interagit avec l'ingénieur d’exploitation et la cybersécurité. |
 | **Responsable cybersécurité industrielle** | Applique les règles de cybersécurité sur le site, rôle souvent partagé avec le responsable automation. |
-
