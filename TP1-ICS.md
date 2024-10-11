@@ -158,23 +158,25 @@ PLC 192.168.1.11 --> SCADA 192.168.1.2O1
 
 ```mermaid
 graph TD
-    A[Sandworm] -->|Deploy| B(Industroyer2)
-    A --> C(CaddyWiper)
-    A --> D(ORCSHRED)
-    A --> E(SOLOSHRED)
-    A --> F(AWFULSHRED)
+    A[Sandworm] --> B(Deploy)
+
+
+    B --> C(CaddyWiper)
+    B --> D(ORCSHRED)
+    B --> E(SOLOSHRED)
+    B --> F(AWFULSHRED)
+    B --> K(Industroyer2)
     
-    B --> G[ICS Network]
+    K --> G[ICS Network]
     C --> G
     G --> H[Electrical Substation]
 
     D --> I[Linux and Solaris Network]
     E --> I
     F --> I
-
 ```
 
-![alt text](Industroyer2.-Figure-1.-Overview-of-the-malware-deployed-in-the-attack-1.png)
+![alt text](./img/TP/Industroyer2.-Figure-1.-Overview-of-the-malware-deployed-in-the-attack-1.png)
 
 - Attaquant : Sandworm
   - Malware : Industroyer2
