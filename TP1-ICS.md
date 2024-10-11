@@ -232,9 +232,14 @@ graph TD
 
 ### OSINT ICS/OT
 
-Mettre un proxy [Segfault](https://www.thc.org/segfault/) / VPS seft hosted [Wireguard](https://www.wireguard.com/) sur un VPS / VPN [Mullvad](https://mullvad.net/fr) / Lancer un firefox sur un docker pour ne pas etre flag par son fingerprint.
+Mettre un proxy [Segfault](https://www.thc.org/segfault/) /N seft hosted [Wireguard](https://www.wireguard.com/) sur un VPS / VPN [Mullvad](https://mullvad.net/fr) / Lancer un firefox sur un docker pour ne pas etre flag par son fingerprint.
 
 <https://www.icsrank.com/>
+
+### All about ICS security askip
+
+This project is all about ICS Security. In an effort to contribute to the ICS community.
+<https://github.com/selmux/ICS-Security>
 
 ### Fun fact
 
