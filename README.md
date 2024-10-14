@@ -10,6 +10,13 @@
 - [img/](img)
 - [NIST/](NIST)
 
+
+## Packaging industriel
+
+https://www.youtube.com/watch?v=Hkn6UyuZPRA
+
+https://www.youtube.com/watch?v=mykmO2igExU
+
 ## Blog to read
 
 <https://zerontek.com/zt/2024/07/24/how-to-find-and-probe-enco-plcs-on-the-internet-just-like-frostygoop-malware/>
