@@ -1,6 +1,6 @@
 # OT / ICS — Sécurité (Notes & Labs)
 
-[🇬🇧 English](README.md) · 🇫🇷 **Français**
+[English](README.md) · **Français**
 
 Base de connaissances personnelle sur la **sécurité des systèmes industriels
 (OT / ICS)** : architecture, protocoles industriels, panorama des menaces, et
