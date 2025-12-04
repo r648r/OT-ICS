@@ -1,32 +1,34 @@
-# OT / ICS — Sécurité (Notes & Labs)
+# OT / ICS — Security (Notes & Labs)
 
-🇫🇷 **Français** · [🇬🇧 English](README.en.md)
+🇬🇧 **English** · [🇫🇷 Français](README.fr.md)
 
-Base de connaissances personnelle sur la **sécurité des systèmes industriels
-(OT / ICS)** : architecture, protocoles industriels, panorama des menaces, et
-travaux pratiques (analyse de captures réseau, études de cas malware).
+Personal knowledge base on **Operational Technology / Industrial Control Systems
+(OT / ICS) security**: architecture, industrial protocols, threat landscape, and
+hands-on labs (network capture analysis, malware case studies).
 
-## Sommaire
+> The linked study notes below are written **in French**.
 
-| Document | Sujet |
+## Contents
+
+| Document | Topic |
 |---|---|
-| [I_Intro.md](I_Intro.md) | Introduction à l'OT/ICS |
-| [II_SI-industriel.md](II_SI-industriel.md) | Systèmes d'information industriels |
-| [scada-topologie.md](scada-topologie.md) | Topologies SCADA |
-| [TP1-ICS.md](TP1-ICS.md) | TP 1 — analyse de trafic ICS (captures dans `TP1-pcap/`) |
-| [NIST/](NIST/) | NIST SP 800-82r3 — Guide de sécurité OT |
+| [I_Intro.md](I_Intro.md) | Introduction to OT/ICS |
+| [II_SI-industriel.md](II_SI-industriel.md) | Industrial information systems |
+| [scada-topologie.md](scada-topologie.md) | SCADA topologies |
+| [TP1-ICS.md](TP1-ICS.md) | Lab 1 — ICS traffic analysis (captures in `TP1-pcap/`) |
+| [NIST/](NIST/) | NIST SP 800-82r3 — Guide to OT Security |
 
-## Ressources
+## Resources
 
-**Normes**
+**Standards**
 - NIST SP 800-82r3 — *Guide to Operational Technology (OT) Security*
 
-**Lectures**
-- [Détecter & sonder des PLC ENCO comme le malware FrostyGoop](https://zerontek.com/zt/2024/07/24/how-to-find-and-probe-enco-plcs-on-the-internet-just-like-frostygoop-malware/)
+**Reading**
+- [Finding & probing ENCO PLCs like FrostyGoop malware](https://zerontek.com/zt/2024/07/24/how-to-find-and-probe-enco-plcs-on-the-internet-just-like-frostygoop-malware/)
 - [OT/ICS secure by design](https://zerontek.com/zt/2022/02/21/ot-ics-secure-by-design/)
-- [Claroty Team82 — cinq vulnérabilités dans le protocole MMS](https://industrialcyber.co/reports/clarotys-team82-discovers-five-vulnerabilities-in-mms-protocol-posing-significant-risks-to-industrial-devices/)
-- [Schémas de référence SCADA / ICS](https://www.secrss.com/articles/69417)
+- [Claroty Team82 — five vulnerabilities in the MMS protocol](https://industrialcyber.co/reports/clarotys-team82-discovers-five-vulnerabilities-in-mms-protocol-posing-significant-risks-to-industrial-devices/)
+- [SCADA / ICS reference schematics](https://www.secrss.com/articles/69417)
 
-**Vidéos**
-- [Vue d'ensemble du packaging industriel](https://www.youtube.com/watch?v=Hkn6UyuZPRA)
-- [Le PLC expliqué](https://www.youtube.com/watch?v=uOtdWHMKhnw)
+**Videos**
+- [Industrial packaging overview](https://www.youtube.com/watch?v=Hkn6UyuZPRA)
+- [PLC explained](https://www.youtube.com/watch?v=uOtdWHMKhnw)
